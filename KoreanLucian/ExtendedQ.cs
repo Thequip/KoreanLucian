@@ -13,7 +13,7 @@
 
     internal static class ExtendedQ
     {
-        private static readonly Spell AdvancedQ = new Spell(SpellSlot.Q, 1100);
+        private static readonly Spell AdvancedQ = new Spell(SpellSlot.Q, 900);
 
         private static readonly Func<Obj_AI_Hero, Obj_AI_Base, bool> CheckDistance =
             (champ, minion) =>
